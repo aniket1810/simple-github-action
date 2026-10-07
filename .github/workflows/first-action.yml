@@ -4,6 +4,6 @@ on: [push]
 jobs:
   run-Shell-command: 
     runs-on: ubuntu-latest
-    Steps: 
+    steps: 
      - name: Echo a String
        run: echo "Hello Security Anu, This first github action"
